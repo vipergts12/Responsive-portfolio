@@ -5,17 +5,29 @@
     height: 60px;
     line-height: 60px;
     background: #f5f5f5;
+    font-family: 'Marck Script', cursive;
+    padding: 1rem;
 }
 nav {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1rem;
+    font-family: 'Marck Script', cursive;
+}
+.card { 
+    padding: 1rem;
+    font-family: 'Marck Script', cursive;
 }
 @media (min-width: 640px) {
-    .img, .navbar,.card, .container, .footer {background: blue;}
+    .img, .navbar,.card, .container, .footer {background: aquamarine;
+    color: black;}
 }
 
     @media (min-width: 768px) {
         .navbar, .img ,.card, .container, .footer {background: orange ; font-size: 1.25rem;}
     }
         @media (min-width: 980px) {
-           .navbar, .img, .card, .container, .footer {background: pink;}
+           .navbar, .img, .card, .container, .footer {background: yellow;}
+        }
+        .navbar {
+            color: black;
         }
