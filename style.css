@@ -152,6 +152,9 @@ body {
     width: 100%;
     border: 0 none;
     opacity: 0.8;
+    padding: 1rem;
+    position: relative;
+    overflow: auto;
   }
   
   .work h3 {
