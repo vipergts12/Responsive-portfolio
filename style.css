@@ -221,16 +221,15 @@ body {
   
 
 @media (min-width: 640px) {
-        .img, .navbar,.card, .container, .footer {background: aquamarine;
+         .navbar,.card, .container, .footer {background: aquamarine;
     color: black;}
 }
 
 @media (min-width: 768px) {
-        .navbar, .img ,.card, .container, .footer {background: orange ; font-size: 1.25rem;}
+        .navbar, .card, .container, .footer {background: orange ; font-size: 1.25rem;}
     }
  @media (min-width: 980px) {
-           .navbar, .img, .card, .container, .footer {background: yellow;}
+           .navbar, .card, .container, .footer {background: yellow;}
         }
-        .navbar {
-            color: black;
+        .img {width: auto; height: auto;}
         }
