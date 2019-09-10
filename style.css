@@ -221,15 +221,21 @@ body {
   
 
 @media (min-width: 640px) {
-         .navbar,.card, .container, .footer {background: aquamarine;
+         .navbar,.card, .container, .footer {background: whitesmoke;
     color: black;}
 }
 
 @media (min-width: 768px) {
-        .navbar, .card, .container, .footer {background: orange ; font-size: 1.25rem;}
+        .navbar, .card, .container, .footer {background: whitesmoke ; font-size: 1.25rem;}
     }
  @media (min-width: 980px) {
-           .navbar, .card, .container, .footer {background: yellow;}
+           .navbar, .card, .container, .footerz{background: whitesmoke}
         }
         .img {width: auto; height: auto;}
+        
+        #masthead:hover {
+          box-shadow: 15px 15px 15px rgba(16, 14, 17, 0.5);
+          cursor: pointer;
+          transition: box-shadow 1s;
+
         }
